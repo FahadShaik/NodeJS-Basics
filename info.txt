@@ -1,0 +1,8 @@
+This is my first creation of node js where Node JS is explained.
+
+Types of modules in NodeJS
+
+1. core modules.
+2. 3rd party modules (Express JS , React)
+
+third party modules are the one which needs to be installed via commands from repo of npm
