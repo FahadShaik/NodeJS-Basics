@@ -40,3 +40,11 @@ It can be imported from fs by giving the same syntax above and later on we can u
 3rd party modules:
 
 1. explored Bcrypt module which takes the input from any and encrypts or changes the sensitive data in a non readable format with a technique known as hashing.
+
+Episode 3:
+-> Creation of server
+
+Http Module
+
+1. We create a server using the http module method create server(refer code in Http module folder)
+2. We need to listen the hosted server on a path or address.
