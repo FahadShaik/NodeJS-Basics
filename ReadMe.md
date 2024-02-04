@@ -64,3 +64,7 @@ This is related to the topic of authorization.
 1. payload(user info maybe in the form of object)
 2. sign(): to generate the token using 3 arguments(1:payload, 2:secretkey, additional params such as expiry)
 3. verify(): to verify the token, uses 3 args 1-payload, secretkey, error or verified token returned.
+
+Episode 5 - Express.Js
+
+- express is easy to install, flexible, routing is easy protocols is easy and officially provided by nodeJS itself.
