@@ -51,5 +51,16 @@ Http Module
 
 Episode 4:
 Another Third party module known as JWT(JSON web token)
+This is related to the topic of authorization.
 
-1. JWT is a concept of tokenization
+-> Basically while the user logs into the server as a request for the first time it checks the database for the provided user details and the password details provided and if at all it turns out to be true, the token is generated in the server and returns as response.
+
+-> And the returned response consisting the token is stored in the localStorage(every browser has its own localStorage.)
+
+-> JWT's use is to authenticate the user transactions.
+
+-> JWT has 3 parts -
+
+1. payload(user info maybe in the form of object)
+2. sign(): to generate the token using 3 arguments(1:payload, 2:secretkey, additional params such as expiry)
+3. verify(): to verify the token, uses 3 args 1-payload, secretkey, error or verified token returned.

@@ -1,0 +1,2 @@
+Points to be discussed about Express JS
+This is the package related to development of API which is quite easier while comparing to the traditional way of creating the server and making the routes with the help of inbuilt packages like HTTP module etc. 
