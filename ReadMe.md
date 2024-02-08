@@ -68,3 +68,4 @@ This is related to the topic of authorization.
 Episode 5 - Express.Js
 
 - express is easy to install, flexible, routing is easy protocols is easy and officially provided by nodeJS itself.
+- creating server via express import and listening on a port number and later managing the routes with giving the http methods such as get, post , put , delete
