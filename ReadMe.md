@@ -69,3 +69,16 @@ Episode 5 - Express.Js
 
 - express is easy to install, flexible, routing is easy protocols is easy and officially provided by nodeJS itself.
 - creating server via express import and listening on a port number and later managing the routes with giving the http methods such as get, post , put , delete
+
+Episode-6 MongoDB Basics
+
+- the basic understanding of databases structure between mysql and noSQL
+- mysql has lot of memory wastage
+- noSql is having some cool features
+  - here database is known as database
+  - rows is known as document
+  - columns is known as field.
+
+MongoDB is a not only SQL database i.e noSQL Database.
+--open source,
+--dbms tool, stores data in form of JSON format.
