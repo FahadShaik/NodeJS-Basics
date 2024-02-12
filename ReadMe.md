@@ -82,3 +82,22 @@ Episode-6 MongoDB Basics
 MongoDB is a not only SQL database i.e noSQL Database.
 --open source,
 --dbms tool, stores data in form of JSON format.
+
+What is JSON
+--> JSON is a light weight data exchange medium.
+
+Firstly Setup to the MongoDB is done and it requires additional mongoshell package and copy of path into the environment variables of my computer
+
+--> Start the mongodb server in the services (shows server running)
+
+--> Later setup you get accessed into mongoDB and later the server allows us to create database, read the document(called as collection and below is the commands added to do all the stuffs in database after signing in)
+
+steps- create database
+---> use db_name
+
+and now you are in the database now you need to create a collection of properties known as document(just like table we have props here)
+---> db.createCollection('property_name')
+
+Now insert into the document we have key values just like rows and cols
+---> db.property_name.insertOne({key:value}) //for one prop
+---> db.property_name.insertMany([{},{},{}]) //for many props
