@@ -101,3 +101,8 @@ and now you are in the database now you need to create a collection of propertie
 Now insert into the document we have key values just like rows and cols
 ---> db.property_name.insertOne({key:value}) //for one prop
 ---> db.property_name.insertMany([{},{},{}]) //for many props
+
+To find data
+---> db.collection_name.find(); // all the data
+---> db.collection_name.find({"key":"value"}) // particular data
+---> db.collection_name.find().count() // length of the data
