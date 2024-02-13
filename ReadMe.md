@@ -96,7 +96,7 @@ steps- create database
 ---> use db_name
 
 and now you are in the database now you need to create a collection of properties known as document(just like table we have props here)
----> db.createCollection('property_name')
+---> db.createCollection('Document_name')
 
 Now insert into the document we have key values just like rows and cols
 ---> db.property_name.insertOne({key:value}) //for one prop
@@ -106,3 +106,8 @@ To find data
 ---> db.collection_name.find(); // all the data
 ---> db.collection_name.find({"key":"value"}) // particular data
 ---> db.collection_name.find().count() // length of the data
+
+To drop data .
+--->db.collection_name.deleteMany({}); // drop data from documents i.e collections will be deleted
+---> db.collection_name.drop() // deletes the document
+---> db.dropDatabase() // drops the entire database.
