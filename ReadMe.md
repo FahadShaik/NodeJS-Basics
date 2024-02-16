@@ -111,3 +111,8 @@ To drop data .
 --->db.collection_name.deleteMany({}); // drop data from documents i.e collections will be deleted
 ---> db.collection_name.drop() // deletes the document
 ---> db.dropDatabase() // drops the entire database.
+
+To update data.
+---> To update a document or a key value pair in the document we consider
+updateOne({}) and to update many we use updateMany({},{},{})
+---> db.updateOne({unique reference from key value pair} { $set{ "key": "updating value" }});
