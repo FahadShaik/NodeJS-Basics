@@ -112,7 +112,11 @@ To drop data .
 ---> db.collection_name.drop() // deletes the document
 ---> db.dropDatabase() // drops the entire database.
 
+EPISODE 7
+
 To update data.
 ---> To update a document or a key value pair in the document we consider
 updateOne({}) and to update many we use updateMany({},{},{})
 ---> db.updateOne({unique reference from key value pair} { $set{ "key": "updating value" }});
+
+now db connectivity into action.
