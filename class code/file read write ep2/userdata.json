@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Fidela",
+    "gender": "Female",
+    "location": "South Carolina"
+  },
+  { "id": 2, "name": "Edgardo", "gender": "Male", "location": "Illinois" },
+  { "id": 3, "name": "Tobi", "gender": "Female", "location": "Hawaii" },
+  { "id": 4, "name": "Lark", "gender": "Female", "location": "Virginia" },
+  { "id": 5, "name": "Corine", "gender": "Female", "location": "New York" },
+  { "id": 6, "name": "Derril", "gender": "Male", "location": "Maryland" },
+  { "id": 7, "name": "Jaquenette", "gender": "Female", "location": "Kansas" },
+  { "id": 8, "name": "Jazmin", "gender": "Female", "location": "Texas" },
+  { "id": 9, "name": "Austine", "gender": "Female", "location": "Virginia" },
+  { "id": 10, "name": "Mose", "gender": "Male", "location": "Texas" },
+  { "id": 11, "name": "Marlin", "gender": "Male", "location": "Florida" },
+  { "id": 12, "name": "Merrile", "gender": "Female", "location": "Texas" },
+  { "id": 13, "name": "Etty", "gender": "Female", "location": "Texas" },
+  { "id": 14, "name": "Sherlock", "gender": "Male", "location": "Kentucky" },
+  { "id": 15, "name": "Lucio", "gender": "Male", "location": "Oklahoma" },
+  { "id": 16, "name": "Twila", "gender": "Genderfluid", "location": "Texas" },
+  { "id": 17, "name": "Ced", "gender": "Male", "location": "Oklahoma" },
+  { "id": 18, "name": "Larissa", "gender": "Female", "location": "Texas" },
+  { "id": 19, "name": "Merrili", "gender": "Female", "location": "Hawaii" },
+  { "id": 20, "name": "Clemens", "gender": "Male", "location": "Tennessee" },
+  { "id": 21, "name": "Gunner", "gender": "Male", "location": "Arizona" },
+  { "id": 22, "name": "Tory", "gender": "Female", "location": "Texas" },
+  { "id": 23, "name": "Alistair", "gender": "Male", "location": "Washington" },
+  { "id": 24, "name": "Bryana", "gender": "Female", "location": "Texas" },
+  {
+    "id": 25,
+    "name": "Solomon",
+    "gender": "Male",
+    "location": "District of Columbia"
+  },
+  { "id": 26, "name": "Sterling", "gender": "Male", "location": "Georgia" },
+  { "id": 27, "name": "Hal", "gender": "Bigender", "location": "California" },
+  { "id": 28, "name": "Karlotta", "gender": "Female", "location": "Georgia" },
+  { "id": 29, "name": "Pren", "gender": "Male", "location": "Texas" },
+  { "id": 30, "name": "Ninon", "gender": "Female", "location": "Missouri" }
+]

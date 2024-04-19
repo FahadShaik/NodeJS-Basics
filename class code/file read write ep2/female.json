@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Fidela",
+    "gender": "Female",
+    "location": "South Carolina"
+  },
+  { "id": 3, "name": "Tobi", "gender": "Female", "location": "Hawaii" },
+  { "id": 4, "name": "Lark", "gender": "Female", "location": "Virginia" },
+  { "id": 5, "name": "Corine", "gender": "Female", "location": "New York" },
+  { "id": 7, "name": "Jaquenette", "gender": "Female", "location": "Kansas" },
+  { "id": 8, "name": "Jazmin", "gender": "Female", "location": "Texas" },
+  { "id": 9, "name": "Austine", "gender": "Female", "location": "Virginia" },
+  { "id": 12, "name": "Merrile", "gender": "Female", "location": "Texas" },
+  { "id": 13, "name": "Etty", "gender": "Female", "location": "Texas" },
+  { "id": 18, "name": "Larissa", "gender": "Female", "location": "Texas" },
+  { "id": 19, "name": "Merrili", "gender": "Female", "location": "Hawaii" },
+  { "id": 22, "name": "Tory", "gender": "Female", "location": "Texas" },
+  { "id": 24, "name": "Bryana", "gender": "Female", "location": "Texas" },
+  { "id": 28, "name": "Karlotta", "gender": "Female", "location": "Georgia" },
+  { "id": 30, "name": "Ninon", "gender": "Female", "location": "Missouri" }
+]
