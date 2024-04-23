@@ -11,9 +11,7 @@ fs.readFile("userdata.json", "utf-8", (err, data) => {
     }
   });
 
-  const femaleJsonData = JSON.stringify(femaleEmployees);
-
-  fs.writeFile("female.json", femaleJsonData, (err) => {
+  fs.writeFile("female.json", JSON.stringify(femaleEmployees), (err) => {
     if (err) throw err;
     console.log("Data written successfully");
   });
@@ -24,9 +22,7 @@ fs.readFile("userdata.json", "utf-8", (err, data) => {
     }
   });
 
-  const maleEmployeesJson = JSON.stringify(maleEmployees);
-
-  fs.writeFile("male.json", maleEmployeesJson, (err) => {
+  fs.writeFile("male.json", JSON.stringify(maleEmployees), (err) => {
     if (err) throw err;
     console.log("data written successfully (male emlpoyees)");
   });
