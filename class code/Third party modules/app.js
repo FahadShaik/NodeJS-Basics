@@ -1,19 +1,30 @@
-const bcrypt = require("bcrypt");
+import express from "express";
+import dotenv from "dotenv";
+import path from "path";
 
-let user = {
-  username: "Shaik Fahad",
-  email: "Shaik@123.co",
-  cc: "1222 2222 3333 4444",
-  password: "LoveNodeJS",
-};
+const verify = dotenv.config({ path: "./config/dev.env" });
+// console.log(verify);
 
-const salt = bcrypt.genSaltSync(10);
-const password = bcrypt.hashSync(user.password, salt);
+// console.log(process.cwd());
 
-console.log(user.password);
-console.log(password);
+const contact_file = path.join(process.cwd(), "contact.html");
+console.log(contact_file);
 
-user = { ...user, password: password };
+const port = process.env.PORT;
+const host = process.env.HOST_NAME;
 
-let flag = bcrypt.compareSync("LoveNodeJS", user.password);
-console.log(flag);
+const app = express();
+
+//ROot tst
+app.get("/", (req, resp) => {
+  resp.send("Hello Express server");
+});
+
+app.get("/contact", (req, resp) => {
+  resp.sendFile(contact_file);
+});
+
+app.listen(port, host, (err) => {
+  if (err) throw err;
+  console.log(`Server running successfully: http://${host}:${port}`);
+});
